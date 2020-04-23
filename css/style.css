@@ -322,9 +322,11 @@ a {
     border: none;
     margin: auto;
     border-radius: .4rem;
+    text-align: center;
 }
 
 input::placeholder {
+    color: #fff;
     text-align: center;
 }
 
