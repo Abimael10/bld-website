@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*GENERAL STYLES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+#header .navbar {
+    background-color: #5cb8ff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .15);
+}
+
+#header .navbar ul li a {
+    color: #fff;
+    transition: all .2s;
+}
+
+#header .navbar ul li a:hover {
+    font-size: 1.1rem;
+}
+
+#header .navbar .btn {
+    border: 2px solid #fff;
+    padding: .4rem 2.5rem;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 8, 0.7) 100%),
+    url(../img/bg.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.showcase-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 4.5rem
+}
+
+.showcase-img img {
+    width: 25rem;
+}
+
+.description {
+    width: 33%;
+}
+
+.brand-container {
+    width: 67%;
+}
+
+.description .bld{
+    width: 15rem;
+    display: block;
+    overflow: hidden;
+}
+
+.nzxt img {
+    width: 4rem;
+}
+
+.description-text {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+
+.paragraph {
+    color: #fff;
+    font-weight: 100;
+}
+
+.move-it {
+    float: right;
+}
+
+.btn-blue {
+    background: #5cb8ff;
+    padding: .5rem 2.5rem;
+    color: #fff;
+    transition: all .3s;
+}
+
+.btn-white {
+    background: #fff;
+    padding: .5rem 2.5rem;
+    color: #000;
+    transition: all .3s;
+}
+
+.btn-blue:hover {
+    background: #fff;
+    color: #000;
+}
+
+.btn-white:hover {
+    background: lightgray;
+}
+
+/*SERVICES SECTION*/
+
+.services {
+    background: linear-gradient(to bottom, rgba(112, 128, 144, 0.9), rgba(47, 79, 79, 0.9)),
+    url(../img/rocky-bg.jpg);
+    background-size: cover;
+}
+
+.service-item {
+    width: 24%;
+    padding: 2rem;
+    color: #fff;
+}
+
+.service-img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.service-item p {
+    font-size: .8rem;
+}
+
+.service-item a {
+    color: #fff;
+}
+
+/*MORE FEATURES SECTION*/
+
+.more-features {
+    height: 100%;
+}
+
+.features {
+    display: flex;
+}
+
+.feature-1 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 12, .6)),
+        url(../img/gamer.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+    width: 50%;
+}
+
+.feature-2 {
+    background: url(../img/Group9.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+    width: 50%;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+
+.feature-1 h2, .feature-2 h2, .feature-1 a, .feature-2 a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.feature-1 a, .feature-2 a {
+    text-align: center;
+    font-size: 18px;
+}
+
+.feature-1 img {
+    width: 20rem;
+    margin: 2.5rem auto 0 auto;
+}
+
+.feature-2 img {
+    width: 20rem;
+    margin: 2.5rem auto 0 auto;
+}
+
+/*ABOUT US SECTION*/
+
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.about-us-container .text-part h1 {
+    font-size: 2.6rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.about-us-container .image-part img {
+    width: 30rem;
+    height: 30rem;
+}
+
+/*REFURBISHED DEALS*/
+
+.refurbished {
+    background: #5cb8ff;
+    text-align: center;
+    padding: 2.3rem 0;
+    margin-top: 3.2rem;
+}
+
+.refurbished h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/*TESTIMONIAL SECTION*/
+
+.testimonial {
+    background: #000;
+}
+
+.testimonial-items {
+    width: 24%;
+    padding: 2.5rem;
+    color: #fff;
+}
+
+.testimonial-img {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial p {
+    font-size: .8rem;
+}
+
+/*LINKS SECTIONS*/
+
+.links {
+    background: #131212;
+}
+
+.links-item {
+    width: 16%;
+}
+
+.links h4 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links .violet li a {
+    color: #e206e2;
+    font-size: .9rem;
+}
+
+.links .green li a {
+    color: #29ccf5;
+}
+
+.links .blue li a {
+    color: #5151f0;
+}
+
+/*FOOTER*/
+
+.footer {
+    background: #000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .contact-email {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.footer .contact-email h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.footer .contact-email .gray {
+    color: gray;
+}
+
+.footer .contact-email input[type="email"] {
+    width: 50%;
+    background: #333;
+    padding: .3rem;
+    border: none;
+    margin: auto;
+    border-radius: .4rem;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 7rem;
+}
+
+.white {
+    color: #fff;
+    margin-left: 1rem;
+    font-size: .8rem;
+}
+
+.policy-and-terms .yellow-links {
+    font-size: .8rem;
+    color: yellow;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:760px) {
+
+    .showcase {
+        height: 100vh;
+    }
+
+    .showcase-img img {
+        width: 18rem;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .description .brand-container {
+        margin: auto;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-1, .feature-2 {
+        width: 100%;
+    }
+
+    .feature-1 h2, .feature-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-container .text-part h1 {
+        font-size: 1.9rem;
+    }
+
+    .about-us-container .image-part img {
+        width: 20rem;
+        height: 15rem;
+        margin: auto;
+    }
+
+    .refurbished h3 {
+        font-size: 1.1rem !important;
+    }
+
+    .testimonial-items {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .links-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .footer-logo {
+        margin-bottom: 2rem;
+    }
+
+
+}
